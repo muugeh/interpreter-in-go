@@ -12,8 +12,9 @@ const (
 	EOF     = "EOF"
 
 	// 식별자 + 리터럴
-	IDENT = "IDENT" // add, foobar, x, y, ...
-	INT   = "INT"   // 1343456
+	IDENT  = "IDENT" // add, foobar, x, y, ...
+	INT    = "INT"   // 1343456
+	STRING = "STRING"
 
 	// 연산자
 	ASSIGN   = "="
