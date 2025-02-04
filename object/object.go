@@ -26,10 +26,10 @@ type Boolean struct {
 	Value bool
 }
 
-func (b *Boolean) Inspect() string { return fmt.Sprintf("%t", b.Value) }
+func (b *Boolean) Inspect() string  { return fmt.Sprintf("%t", b.Value) }
+func (b *Boolean) Type() ObjectType { return BOOLEAN_OBJ }
 
 type NULL struct{}
 
-func (n *NULL) Inspect() string { return "null" }
-
+func (n *NULL) Inspect() string  { return "null" }
 func (n *NULL) Type() ObjectType { return NULL_OBJ }
