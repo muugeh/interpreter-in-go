@@ -41,6 +41,8 @@ const (
 	LBRACKET = "["
 	RBRACKET = "]"
 
+	COLON = ":"
+
 	// 키워드
 	FUNCTION = "FUNCTION"
 	LET      = "LET"
