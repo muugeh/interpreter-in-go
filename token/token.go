@@ -38,6 +38,9 @@ const (
 	LBRACE = "{"
 	RBRACE = "}"
 
+	LBRACKET = "["
+	RBRACKET = "]"
+
 	// 키워드
 	FUNCTION = "FUNCTION"
 	LET      = "LET"
